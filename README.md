@@ -1,1 +1,6 @@
-# Waymark_Present
+这是OLC的自用FFXIV触发器储存列表，有需求请自取
+
+
+#### 需要[鲶鱼精邮差](https://nga.178.com/read.php?tid=19724323)支持
+     标点宏: /e 设置场地标点。
+            /e 设置场地标点2。
