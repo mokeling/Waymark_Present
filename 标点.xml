@@ -327,6 +327,63 @@
               </Trigger>
             </Triggers>
           </Folder>
+          <Folder ZoneFilterEnabled="True" Id="de60466d-bad4-43d9-8d69-9fdeeef91c68" ZoneFilterRegularExpression="^卢比坎特歼殛战$" Name="[6.3] 卢比坎特歼殛战" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="d375f077-aa64-40a6-9b62-e05260b69dd8" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;卢比坎特歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:86,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:114,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:95,&quot;Y&quot;:0,&quot;Z&quot;:95,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:105,&quot;Y&quot;:0,&quot;Z&quot;:95,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:105,&quot;Y&quot;:0,&quot;Z&quot;:105,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:95,&quot;Y&quot;:0,&quot;Z&quot;:105,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="5691f613-4dd6-4c73-ab99-54b5d67dba3e" ZoneFilterRegularExpression="^高贝扎歼殛战$" Name="[6.4] 高贝扎歼殛战" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="a4f96ab2-043e-4f93-8db3-faef418768a2" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;高贝扎歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:99.89,&quot;Y&quot;:0.029,&quot;Z&quot;:85.838,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114.435,&quot;Y&quot;:0.029,&quot;Z&quot;:99.778,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.728,&quot;Y&quot;:0.03,&quot;Z&quot;:113.862,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86.173,&quot;Y&quot;:0.03,&quot;Z&quot;:99.97,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:102.58,&quot;Y&quot;:0.029,&quot;Z&quot;:97.33,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:102.58,&quot;Y&quot;:0.03,&quot;Z&quot;:102.56,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:97.46,&quot;Y&quot;:0.03,&quot;Z&quot;:102.563,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:97.38,&quot;Y&quot;:0.029,&quot;Z&quot;:97.3,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="a1a39d4d-f7f3-45f2-b1eb-a6d892bf1daf" ZoneFilterRegularExpression="^祖尔宛幻巧战$" Name="[6.4] 祖尔宛幻巧战" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="ea91a60b-0742-48ff-a8c5-aec4272701db" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;祖尔宛幻巧战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-18.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:18.0,&quot;Y&quot;:0.0,&quot;Z&quot;:3.25,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:18.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-18.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-3.25,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:6.5,&quot;Y&quot;:0.0,&quot;Z&quot;:-18.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:6,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:-6.5,&quot;Y&quot;:0.0,&quot;Z&quot;:18.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
         </Folders>
         <Triggers />
       </Folder>
